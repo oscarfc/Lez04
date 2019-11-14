@@ -15,4 +15,5 @@ public class mainStart {
         Alunno a1 = new Alunno("Rossi");
     }
     
+   
 }
