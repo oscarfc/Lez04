@@ -5,15 +5,19 @@
  */
 package com.mycompany.lez04;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author tss
  */
 public class mainStart {
+
     public static void main(String[] args) {
-        Alunno a;
-        Alunno a1 = new Alunno("Rossi");
+        Alunno a1 = new Alunno("Rossi", "Mario", 100);
+        Esame es1 = new Esame("Database", "Verdi");
+        a1.aggiungiEsame(es1);
+        JOptionPane.showMessageDialog(null, a1.getLibretto());
     }
-    
-   
+
 }

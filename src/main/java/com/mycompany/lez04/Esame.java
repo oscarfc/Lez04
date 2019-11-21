@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
  * @author tss
  */
 public class Esame {
+
     private String nomeEsame;
     private String nomeDocente;
     private int voto;
@@ -44,6 +45,7 @@ public class Esame {
     public Esame(String nomeEsame, String nomeDocente) {
         this.nomeEsame = nomeEsame;
         this.nomeDocente = nomeDocente;
+        this.dataSostenuto = LocalDateTime.now();
     }
 
 }
